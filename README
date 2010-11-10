@@ -1,0 +1,26 @@
+##############################################################################################
+### Maven Sample Project for AppZone 
+#############################################################################################
+
+1.0 Dependancies
+------------------
+* JDK 1.6
+* Maven 2.* (not tested with Maven 3.*)
+* An active internet connection
+
+2.0 Configurations
+-------------------
+* Open up the pom.xml and change the values of groupId and artifactId accordingly align with your project
+
+3.0 Coding
+-------------
+* All the codes for the apps is placed at src/ folder
+* and this is maven project, visit http://maven.apache.org/ for more info
+
+4.0 Usefull command
+-------------------
+* Compile - mvn compile
+* Test - mvn test
+* Run the Application - mvn jetty:run 
+	this will run your application on http://localhost:8080
+
